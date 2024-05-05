@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RetroGames</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Jersey+25+Charted&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <hr>
+        <form autocomplete="off" id="loginForm">
+            <div class="frm-linha">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="frm-linha">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha">
+            </div>
+            <div class="frm-linha">
+                <button id="btnLogin">Entrar</button>
+                <div class="esqueceu-senha">
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="config">
+        <input type="checkbox" id="darkModeToggle"> Dark Mode
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
